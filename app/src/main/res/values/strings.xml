@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HendrickPaculeT2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">Insira seu id</string>
+    <string name="marca_ed">Insira seu marca</string>
+    <string name="modelo_ed">Insira seu modelo</string>
+    <string name="numero_de_serie">Insira seu numero de serie</string>
+    <string name="processador_ed">processador_ed</string>
+    <string name="memoria_ed">Insira a sua memoria</string>
+    <string name="ram_ed">Insira sua ram</string>
+    <string name="HDD_ed">Insira seu disco rigido</string>
+</resources>

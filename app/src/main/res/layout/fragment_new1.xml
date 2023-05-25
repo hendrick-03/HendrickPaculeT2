@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/new1"
+    tools:context=".New1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:hint="@string/id"
+            android:inputType="number"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/marca_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:hint="@string/marca_ed"
+
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/modelo_ed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/modelo_ed"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/numero_de_serie_ed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/numero_de_serie"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/processador_ed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/processador_ed"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/memoria_ed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/memoria_ed"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/ram_ed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ram_ed"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/HDD_ed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/HDD_ed"
+            android:inputType="number" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/salvar_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="45dp"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/listar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="45dp"
+                android:text="Listar" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
